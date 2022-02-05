@@ -1,0 +1,17 @@
+Icon:   https://react-icons.github.io/
+
+Upload page: 
+    React endpoint: /component-upload
+    Node : {baseUrl}/:userID/:componentID/
+    Mongo: {
+        _id,
+        componentID
+        ut serID,
+        component_title,
+        description: {<delta fron quill>}
+        imagesPath: [],
+        tags,
+        downloads,
+        file : <link or something>
+                    
+    }
